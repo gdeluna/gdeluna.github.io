@@ -1,0 +1,15 @@
+{
+  "name": "gdeluna.github.io",
+  "version": "1.0.0",
+  "description": "Blog built with Eleventy v3",
+  "scripts": {
+    "dev": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy",
+    "sass:watch": "npx sass css/main.scss css/main.css --watch"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.6",
+    "sass": "^1.79.0"
+  }
+}

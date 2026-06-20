@@ -53,7 +53,6 @@ body {
     opacity: 0.6;
     z-index: -2;
     pointer-events: none;
-    animation: rotateGradient 45s linear infinite;
   }
 }
 
@@ -99,7 +98,6 @@ a, button, input, textarea, [tabindex]:not([tabindex="-1"]) {
     filter: blur(50px);
     opacity: 0.1;
     z-index: -1;
-    animation: float 10s ease-in-out infinite alternate;
   }
 
   h1 {
@@ -171,11 +169,6 @@ a, button, input, textarea, [tabindex]:not([tabindex="-1"]) {
 @keyframes float {
   0% { transform: translate(0, 0) scale(1); }
   100% { transform: translate(8%, 8%) scale(1.05); }
-}
-
-@keyframes rotateGradient {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
 }
 
 .projects {
